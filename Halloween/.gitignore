@@ -49,6 +49,9 @@ Temporary Items
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
 
+# Crashdumps should not be included
+/mono_crash.mem*
+
 # Recordings can get excessive in size
 /[Rr]ecordings/
 
